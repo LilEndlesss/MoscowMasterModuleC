@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Шарики</title>
+</head>
+<body>
+    <div class="start" id="bg" style="display: block;">
+        <div class="load"></div>
+        <div class="background" >
+            <div class="content">
+                <input type="text" id="player-name" placeholder="Введите ваше имя" class="form" maxlength="5">
+                <button id="start-btn" onclick="startGame()">Начать</button>
+            </div>
+            
+        </div>
+    </div>
+    <div id="pbg" class="page-backgroun" style="display: block;"></div>
+    <div class="page-background"></div>
+    <div class="game" id="game" style="display: none;">
+        <div class="chet">
+            <div class="panel-left flex-col flex-aic">
+                <div id="username-block" class="smart-font-size ch" align="center">name</div>
+                <div id="gasoline-count">
+                    <div class="gasoline-number" align="center">100</div>
+                    <div class="gasoline-numbers" align="center"></div>
+                    <div class="gasoline-value"></div>
+                </div>
+                <div id="timer-text" class="smart-font-size" align="center">
+                    <span class="secunds">60</span>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <div class="end" style="display: none;" id="end">
+            <div class="background" >
+                <div class="content">
+                    <div class="chetik">авыыаваыв</div>
+                    <button id="start-btn" onclick="restart()">Начать заново</button>
+                </div>
+                
+            </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

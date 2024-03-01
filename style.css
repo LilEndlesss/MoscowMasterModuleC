@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .start {
+    width: 900px;
+    height: 500px;
+    position: relative;
+  }
+  
+  .background {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование по вертикали (по оси Y) */
+    justify-content: center; /* Центрирование по горизонтали (по оси X) */
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .page-backgroun {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Поместить за всеми элементами */
+    background-color: #000000; /* Цвет дерева */
+    opacity: 75%;
+  }
+
+  .page-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2; /* Поместить за всеми элементами */
+    background-color: #a9a9a9; /* Цвет дерева */
+  }
+  .panel-left{
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: #fff;
+  }
+  .smart-font-size{
+    padding: 60px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #560000;
+  }
+  .smart-font-sizer{
+    padding: 60px 0px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #560000;
+  }
+  .gasoline-number{
+    padding: 125px 0 0 0;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #560000;
+  }
+  .cnv {
+    width: 200vh;
+    position: fixed;
+    left:200px;
+    top: 0;
+    background-color: #676767;
+  }
+  .gasoline-numbers{
+    padding: 125px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #560000;
+  }
+  .image {
+    position: absolute;
+    width: 50px; /* Размер вашей картинки */
+    height: 50px; /* Размер вашей картинки */
+    cursor: pointer;
+}
+.circle{
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    
+}
